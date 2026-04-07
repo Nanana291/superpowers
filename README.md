@@ -26,7 +26,7 @@ Thanks!
 
 ## Installation
 
-**Note:** Installation differs by platform. Claude Code or Cursor have built-in plugin marketplaces. Codex and OpenCode require manual setup.
+**Note:** Installation differs by platform. Claude Code or Cursor have built-in plugin marketplaces. Codex and OpenCode require manual setup. Qwen Code uses native extensions.
 
 ### Claude Code Official Marketplace
 
@@ -99,6 +99,18 @@ To update:
 
 ```bash
 gemini extensions update superpowers
+```
+
+### Qwen Code CLI
+
+```bash
+qwen extensions install https://github.com/Nanana291/superpowers
+```
+
+To update:
+
+```bash
+qwen extensions update superpowers
 ```
 
 ### Verify Installation
